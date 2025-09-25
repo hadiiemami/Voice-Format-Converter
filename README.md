@@ -30,7 +30,7 @@ pip install ffmpeg-python
 1. Edit the script `audio_converter.py` and set your folder paths:
 
 ```python
-INPUT_FOLDER = r"D:\Project\Aali Panah\9-25-2025\Voice"
+INPUT_FOLDER = r"Your Path"
 OUTPUT_FOLDER = os.path.join(INPUT_FOLDER, "Converted_Audio")
 TARGET_FORMAT = "mp3"   # Change this to "wav", "flac", "ogg", etc.
 ```
